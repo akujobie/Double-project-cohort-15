@@ -1,0 +1,32 @@
+.buttons{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(63, 62, 62);
+}
+.buttons a:hover{
+    background-color: #e2e0e0; 
+}
+
+
+.Ad{
+    font-size: 14px;
+   
+}
+/* width */
+.Ad::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+ .Ad::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  .Ad::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  .Ad::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
