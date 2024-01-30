@@ -1,0 +1,1955 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Heebo', sans-serif;
+}
+
+.menu-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    /* align-items: center; */
+    /* height: 5vh; */
+    /* background-color: blue; */
+}
+
+.link{
+    margin-left: 50px;
+}
+
+.link h1 {
+    color: rgb(8, 129, 235);
+    font-weight: bold;
+
+    font-size: 30px;
+}
+
+.in {
+    background-color: rgb(8, 129, 235);
+    color: aliceblue;
+    padding: 0px 2px;
+    border-radius: 4px;
+
+}
+
+.list {
+    display: flex;
+    justify-content: space-evenly;
+    width: 45%;
+    text-align: center;
+    align-items: center;
+    margin-left: 190px;
+
+}
+
+.text {
+    font-size: 12px;
+    color: gray;
+
+
+}
+
+.uni {
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 10px;
+    
+}
+
+.uni:hover {
+
+    color: black;
+}
+
+.app {
+    border-left: 1px solid rgba(128, 128, 128, 0.36);
+    border-right: 1px solid rgba(128, 128, 128, 0.36);
+    padding: 7px;
+}
+
+.join-sign{
+    display: flex;
+}
+
+
+
+.join a {
+    color: gray;
+    padding: 15px 25px;
+    font-weight: bold;
+}
+
+.join a:hover {
+    background-color: rgba(128, 128, 128, 0.105);
+    border-radius: 30px;
+}
+
+
+.sign a {
+    color: rgb(8, 129, 235);
+    border: 1px solid;
+    padding: 15px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.sign a:hover {
+    background-color: rgba(8, 129, 235, 0.064);
+}
+
+
+/* menu bar ends here */
+
+/* second section start here */
+
+.welcome-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.welcome-page {
+    margin-top: 20px;
+    width: 35%;
+    margin-left: 190px;
+
+}
+
+.welcome-page .po {
+    font-size: 45px;
+    color: rgb(224, 84, 8);
+
+
+}
+
+.phone {
+    margin-top: 30px;
+}
+
+input {
+    width: 100%;
+    height: 7vh;
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 25px;
+}
+
+.size {
+    width: 70%;
+}
+
+input:hover {
+
+    background-color: rgb(183, 183, 183);
+    border: 1.5px solid black;
+    outline: auto;
+
+}
+
+.ph {
+    margin-bottom: 15px;
+    color: gray;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.pas {
+    margin-bottom: 15px;
+    color: gray;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.show {
+    position: absolute;
+    top: 62%;
+    right: 64%;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(8, 129, 235);
+}
+
+.forget a {
+    color: rgb(8, 129, 235);
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 16px;
+
+
+}
+
+.forget a:hover {
+    text-decoration: underline;
+}
+
+.sign-in {
+    background-color: rgb(8, 129, 235);
+    width: 100%;
+    /* height: 7vh; */
+    margin-top: 20px;
+    border-radius: 25px;
+    text-align: center;
+    /* align-items: center; */
+    padding: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+
+}
+
+.line::before,
+.line::after {
+    content: "";
+    padding: 0.5px;
+    background-color: black;
+    flex: 1;
+    margin: 5px 15px;
+
+}
+
+.line {
+    margin: 30px;
+    display: flex;
+    text-align: center;
+    padding: 0px 2px;
+    font-size: 10px;
+    width: 100%;
+    position: relative;
+    left: -35px;
+}
+
+
+
+.sign-in a {
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.sign-in:hover {
+    background-color: rgb(0, 61, 115);
+}
+
+.text2 p {
+    width: 70%;
+    font-size: 13px;
+    margin-bottom: 20px;
+
+
+}
+
+.user a {
+    color: rgb(40, 40, 200);
+    font-weight: bold;
+}
+
+.user a:hover {
+    text-decoration: underline;
+}
+
+.google-flex {
+    border: 1px solid rgb(60, 58, 58);
+    width: 70%;
+    height: 7vh;
+    margin-bottom: 20px;
+    text-align: left;
+    line-height: 50px;
+    border-radius: 30px;
+}
+
+.google-flex a {
+    color: rgb(26, 25, 25);
+    font-size: 14px;
+    margin-left: 15px;
+    font-weight: bold;
+
+}
+
+.google-flex:hover {
+    outline: 2px solid rgb(60, 58, 58);
+
+
+}
+
+.new {
+    border: 1px solid rgb(60, 58, 58);
+    width: 70%;
+    height: 7vh;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 30px;
+    margin-top: 10px;
+
+}
+
+.new a {
+    color: black;
+    font-weight: bold;
+
+
+}
+
+.new:hover {
+    background-color: lightgray;
+}
+
+
+
+/* section end here  */
+
+/* section three start here */
+
+.section-three {
+    display: flex;
+    height: 55vh;
+    width: 75%;
+    margin: auto;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.write-up {
+    width: 35%;
+    margin-top: 20px;
+    height: 55vh;
+
+}
+
+.write-up h3 {
+    font-size: 55px;
+    font-weight: 100;
+    color: rgb(62, 62, 62);
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.write-up p {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+
+.buttons {
+    width: 50%;
+
+}
+
+
+/* section four design start here  */
+.section-four {
+    display: flex;
+    height: 55vh;
+    width: 75%;
+    margin: auto;
+    margin-top: 50px;
+    justify-content: space-between;
+
+}
+
+.write-up2 {
+    width: 35%;
+    margin-top: 20px;
+    height: 55vh;
+
+}
+
+.write-up2 h3 {
+    font-size: 30px;
+    font-weight: 100;
+    color: rgb(62, 62, 62);
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+.button2 {
+    width: 50%;
+
+}
+
+
+/* section five design  start here */
+.section-five {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(250, 242, 229);
+    height: 45vh;
+    align-items: center;
+}
+
+.post-text h3 {
+    width: 40%;
+    font-size: 40px;
+    color: rgb(179, 67, 3);
+    font-weight: 100;
+    margin-left: 190px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: aqua; */
+}
+
+
+.post {
+    /* background-color: aqua; */
+    margin-right: auto;
+    position: relative;
+    right: 20%;
+}
+
+.post a{
+    border: 1px rgb(104, 104, 224) solid;
+    padding: 15px ;
+    color: rgb(104, 104, 224) ;
+    font-weight: bold;
+    border-radius: 35px;
+}
+
+.post a:hover{
+    background-color: rgba(104, 104, 224, 0.105);
+    
+}
+
+
+/* section six desihn start here  */
+
+.section-six {
+    display: flex;
+    height: 55vh;
+    width: 75%;
+    margin: auto;
+    margin-top: 90px;
+    justify-content: space-between;
+
+}
+
+.write-up3 {
+    width: 40%;
+    margin-top: 20px;
+    height: 55vh;
+
+}
+
+.write-up3 h3 {
+    font-size: 30px;
+    font-weight: 100;
+    color: rgb(62, 62, 62);
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+.write-up3 p {
+    margin-top: 20px;
+    font-size: 15px;
+
+}
+
+.button-up3e {
+    width: 65%;
+    margin-left: 250px;
+
+
+}
+
+/* section seven design start here */
+
+.section-seven {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    height: 115vh;
+    align-items: center;
+
+    background-color: rgb(244, 241, 237);
+
+
+}
+
+.let-write {
+    width: 35%;
+    margin-left: 190px;
+
+}
+
+.let-write h4 {
+    font-size: 40px;
+    color: rgb(179, 67, 3);
+    font-weight: lighter;
+
+}
+
+.let-write p {
+    font-size: 27px;
+    margin-top: 15px;
+    font-weight: lighter;
+    color: gray;
+}
+
+
+.let-img {
+    width: 45%;
+
+}
+
+.let-img img {
+    width: 65%;
+}
+
+/* section eight design start here */
+
+
+.section-eight {
+    display: flex;
+    width: 75%;
+    justify-content: space-around;
+    height: 100vh;
+    margin-left: 190px;
+    align-items: center;
+    /* background-color: aqua; */
+
+
+}
+
+.connect{
+    width: 45%;
+}
+
+.connect img {
+    width: 65%;
+    margin-left: -20px;
+}
+
+.connect h3 {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: 44px;
+    font-weight: lighter;
+    color: rgb(92, 91, 91);
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+.learn {
+    margin-left: 40px;
+    width: 45%;
+
+}
+
+.learn img {
+    width: 65%;
+    margin-left: -20px;
+}
+.learn h3{
+    
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: 44px;
+    font-weight: lighter;
+    color: rgb(92, 91, 91);
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Roboto Mono', monospace; 
+}
+
+select{
+    padding: 13px 0px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(92, 91, 91);
+    outline: none;
+
+}
+select:hover{
+    background-color: rgb(224, 224, 224);
+}
+
+/* section-nine design staet here  */
+
+.section-nine{
+    display: flex;
+    justify-content: space-between;
+    height: 125vh;
+    /* background-color: aquamarine; */
+    /* width: 50%; */
+    /* align-items: center; */
+}
+.my-back{
+    background-color: rgb(250, 247, 240);
+    margin-top: 70px;
+    height: 110vh;
+    width: 100%;
+     margin-right: 90px;
+    
+}
+
+.who-is{
+    /* background-color: aqua; */
+    margin-top: 260px;
+    
+    height: 50vh;
+    width: 65%;
+    margin-left: 190px;
+
+    
+
+}
+.who-is h3{
+    font-size: 40px;
+    font-weight: lighter;
+    color: rgb(179, 67, 3);
+    margin-bottom: 10px;
+}
+
+.who-is p{
+    font-size: 34px;
+    color: rgb(92, 91, 91);
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 5px;
+    margin-bottom: 35px; 
+}
+
+.find{
+    background-color: rgb(244, 234, 221);
+    width: 85%;
+    height: 8vh;
+    margin-bottom: 25px;
+    line-height: 55px;
+    
+}
+
+.find:hover{
+    background-color: rgb(231, 207, 177)a;
+}
+.find a{
+    color: rgb(36, 35, 35);
+    padding-left: 10px;
+    font-size: 17px;
+    
+  
+}
+.mine1{
+    position: relative;
+    left: 38%;
+    
+}
+.mine2{
+    position: relative;
+    left: 66%;
+    
+}
+.mine3{
+    position: relative;
+    left: 48%;
+    
+}
+
+
+
+/* section ten design start here */
+
+.section-ten{
+    width: 80%;
+    /* height: 40vh; */
+    margin-left: 190px;
+    
+
+}
+
+.section-ten{
+    position: absolute;
+    top: 720%;
+
+}
+
+.section-ten h1{
+    font-size: 50px;
+    font-weight: lighter;
+
+}
+
+.get{
+    background-color: rgb(8, 129, 235);
+    width: 10%;
+    height: 7vh;
+    border-radius: 25px;
+    margin-top: 15px;
+    cursor: pointer;
+    
+
+}
+.get:hover{
+
+    background-color: rgb(2, 111, 207);
+}
+.get a{
+    color: aliceblue;
+    font-weight: bold;
+    line-height: 50px;
+    padding-left: 17px;
+
+}
+
+.ten-img img{
+    margin-top: 225px;
+    width: 100%;
+    height: 96vh;
+    /* margin-top: -30px; */
+}
+
+
+/* footer design start here */
+
+
+
+.container-footer{
+    background-color: rgb(244, 241, 237);
+    margin-top: 10px;
+
+}
+
+
+.come{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+    
+    
+}
+.logo-img img{
+    position: relative;
+    left: 10%;
+    
+
+}
+
+.gen h5{
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+ul li a{
+    font-size: 15px;
+    color: gray;
+}
+ul li a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+/* my mobile responsive design start here using */
+
+/* here is for tablet design */
+@media (min-width:1319px) and (max-width:1392px){
+
+/* main menu */
+
+.list {
+    width: 40%;
+
+}
+
+    /* section four design start here  */
+.section-four {
+    height: 65vh;
+    
+}
+
+
+.button2 {
+    width: 50%;
+
+}
+
+/* section six design start here  */
+
+.section-six {
+
+    height: 65vh;
+
+}
+
+.write-up3 {
+    width: 35%;
+
+}
+
+.button-up3e {
+    width: 67%;
+}
+
+/* section-nine design staet here  */
+
+.my-back{
+    
+    margin-top: 70px;
+    height: 125vh;
+    width: 100%;
+     margin-right: 90px;
+    
+}
+
+.who-is{
+
+    margin-left: 150px;
+
+}
+
+
+/* section ten design start here */
+
+.section-ten{
+    position: absolute;
+    top: 770%;
+
+}
+
+   
+}
+
+
+/* here is for tablet design */
+@media (min-width:1276px) and (max-width:1318px){
+
+    /* main menu */
+
+.list {
+    width: 40%;
+
+}
+    /* section four design start here  */
+.section-four {
+    height: 65vh;
+    
+}
+
+
+.button2 {
+    width: 50%;
+
+}
+
+/* section six design start here  */
+
+.section-six {
+
+    height: 75vh;
+
+}
+
+.write-up3 {
+    width: 35%;
+
+}
+
+.button-up3e {
+    width: 70%;
+}
+
+/* section-nine design staet here  */
+
+.my-back{
+    
+    margin-top: 70px;
+    height: 127vh;
+    width: 100%;
+     margin-right: 90px;
+    
+}
+
+.who-is{
+
+    margin-left: 150px;
+
+}
+
+
+/* section ten design start here */
+
+.section-ten{
+    position: absolute;
+    top: 777%;
+
+}
+
+
+
+
+   
+}
+
+
+/* here is for tablet design */
+@media (min-width:1128px) and (max-width:1275px){
+
+    /* main menu */
+
+.list {
+    width: 35%;
+
+}
+    /* section four design start here  */
+.section-four {
+    height: 65vh;
+    
+}
+
+
+.button2 {
+    width: 50%;
+
+}
+
+/* section six design start here  */
+
+.section-six {
+
+    height: 75vh;
+
+}
+
+.write-up3 {
+    width: 35%;
+
+}
+
+.button-up3e {
+    width: 70%;
+}
+
+/* section-nine design staet here  */
+
+.my-back{
+    
+    margin-top: 70px;
+    height: 127vh;
+    width: 100%;
+     margin-right: 90px;
+    
+}
+.who-is{
+    /* background-color: aqua; */
+    margin-top: 200px;
+    
+    height: 50vh;
+    width: 65%;
+    margin-left: 145px;
+
+    
+
+}
+
+
+
+
+/* section ten design start here */
+
+.section-ten{
+    position: absolute;
+    top: 787%;
+
+}
+
+.get{
+    background-color: rgb(8, 129, 235);
+    width: 12%;
+    height: 7vh;
+    
+    
+    
+
+}
+
+.get a{
+   
+    padding-left: 15px;
+
+}
+
+}
+
+
+/* here is for tablet design */
+@media (min-width:1026px) and (max-width:1246px){
+
+
+    /* main menu design start here */
+
+    .list {
+        display: none;
+    
+    }
+
+    /* section two design start here */
+
+
+    
+    .welcome-page {
+       
+        width: 45%;
+        
+    
+    }
+    
+   
+    .img{
+        width: 40%;
+        height: 60vh;
+    }
+
+     /* section four design start here  */
+.section-four {
+    height: 75vh;
+    
+}
+
+
+.button2 {
+    width: 50%;
+
+}
+
+/* section six design start here  */
+
+.section-six {
+
+    height: 80vh;
+
+}
+
+.write-up3 {
+    width: 35%;
+
+}
+
+.button-up3e {
+    width: 70%;
+}
+
+/* section-nine design staet here  */
+
+.my-back{
+    
+    margin-top: 70px;
+    height: 127vh;
+    width: 100%;
+     margin-right: 90px;
+    
+}
+.who-is{
+    /* background-color: aqua; */
+    margin-top: 220px;
+    
+    height: 50vh;
+    width: 65%;
+    margin-left: 145px;
+
+    
+
+}
+
+.nine-img{
+    width: 45%;
+}
+
+
+
+
+/* section ten design start here */
+
+.section-ten{
+    position: absolute;
+    top: 774%;
+
+}
+
+.get{
+    width: 12%;
+    height: 7vh;
+    margin-top: 15px;
+}
+.get:hover{
+
+    background-color: rgb(2, 111, 207);
+}
+.get a{
+    padding-left: 15px;
+
+}
+
+
+}
+
+/* here is for mobile phone  design */
+@media (min-width:500px) and (max-width:750px){
+
+        /* main menu design start here */
+        .container-fluid{
+            width: 100%;
+            margin-top: 30px;
+        }
+
+        .list {
+            display: none;
+        
+        }
+
+        .menu-flex {
+            margin-top: 55px;
+            width: 100%;
+            margin-left: 100px;
+            
+        }
+
+        .join-sign{
+            margin-left: 50px;
+        
+        }
+
+
+        /* section two  */
+
+
+
+        .welcome-flex {
+            display: inline-block;
+        }
+
+        .welcome-page {
+            margin-top: 20px;
+            width: 80%;        
+        }
+        
+        .welcome-page .po {
+            font-size: 50px;    
+        }
+
+        
+        .phone {
+            margin-top: 30px;
+        }
+        
+     
+        
+        
+        .size {
+            width: 90%;
+        }
+
+        .img{
+            width: 100%;
+            height: 50vh;
+            margin: auto;
+        }
+        
+        .show {
+            position: absolute;
+            top: 62%;
+            right: 64%;
+          
+        }
+        
+      
+        .text2 p {
+            width: 100%;
+            font-size: 18px;
+            margin-bottom: 20px;
+        
+        
+        }
+        
+      
+        
+        .google-flex {
+            border: 1px solid rgb(60, 58, 58);
+            width: 90%;
+        }
+        
+     
+        
+        .new {
+            border: 1px solid rgb(60, 58, 58);
+            width: 90%;
+            
+        
+        }
+        
+    
+        
+        
+        
+        /* section end here  */
+        
+        /* section three start here */
+        
+        .section-three {
+            display: inline-block;
+            height: 55vh;
+            width: 100%;
+            margin: auto;
+           
+        }
+        
+        .write-up {
+            width: 120%;
+            margin-top: 240px;
+            height: 55vh;
+            text-align: center;
+            margin-left: 90px;
+            
+        
+        }
+        
+        
+        
+        .write-up p {
+            margin-top: 25px;
+            font-size: 18px;
+        }
+        
+        
+        .buttons {
+            width: 120%;
+            margin-left: 90px;
+        
+        }
+
+        /* section four design start here  */
+.section-four {
+    display: inline-block;
+    height: 60vh;
+    width: 120%;
+    margin: auto;
+    margin-top: 60px;
+
+}
+
+.write-up2 {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 90px;
+    height: 30vh;
+
+}
+
+.write-up2 h3 {
+    font-size: 40px;
+    text-align: center;
+   
+}
+
+.button2 {
+    width: 100%;
+    margin-left: 90px;
+
+}
+
+
+/* section five design  start here */
+
+.section-five {
+    width: 158%;
+    margin-top: 55px;
+    
+}
+
+.post-text h3 {
+    width: 40%;
+    font-size: 30px;
+    margin-left: 90px;
+   
+}
+
+
+/* section six desihn start here  */
+
+.section-six {
+    display: inline-block;
+    height: 55vh;
+    width: 100%;
+    margin: auto;
+
+}
+
+.write-up3 {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 90px;
+    height: 30vh;
+    text-align: center;
+
+}
+
+.write-up3 h3 {
+    font-size: 40px;
+
+}
+
+.write-up3 p {
+    margin-top: 20px;
+    font-size: 18px;
+
+}
+
+.button-up3e {
+    width: 100%;
+    margin-left: 90px;
+}
+
+/* section seven design start here */
+
+.section-seven {
+    width: 158%;
+    height: 90vh;
+}
+
+.let-write {
+    width: 50%;
+    margin-left: 30px;
+
+}
+
+.let-write h4 {
+    font-size: 25px;
+
+}
+
+.let-write p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+.let-img {
+    width: 60%;
+    margin-left: 90px;
+
+}
+
+.let-img img {
+    width: 65%;
+}
+
+/* section eight design start here */
+
+
+.section-eight {
+    display: inline-block;
+    width: 120%;
+    margin-top: 50px;
+    height: 100vh;
+    margin-left: 90px;
+}
+
+.connect{
+    width: 100%;
+}
+
+.connect img {
+    width: 65%;
+    margin-left: 50px;
+}
+
+
+.learn {
+    /* margin-left: 50px; */
+    width: 100%;
+
+}
+
+.learn img {
+    width: 65%;
+    margin-left: 50px;
+}
+
+
+/* section-nine design staet here  */
+
+.section-nine{
+    display: inline-block;
+    justify-content: space-between;
+    height: 125vh;
+    width: 100%;
+   
+}
+.my-back{
+    background-color: rgb(250, 247, 240);
+    /* margin-top: 120px; */
+    height: 85vh;
+    width: 158%;
+    margin-bottom: 50px;
+    
+    
+}
+
+.who-is{
+    /* background-color: aqua; */
+    margin-top: 50px;
+    
+    height: 65vh;
+    width: 70%;
+    margin-left: 120px;
+
+    
+
+}
+.who-is h3{
+    padding-top: 50px;
+
+}
+
+
+
+
+
+.mine1{
+    position: relative;
+    left: 38%;
+    
+}
+.mine2{
+    position: relative;
+    left: 66%;
+    
+}
+.mine3{
+    position: relative;
+    left: 48%;
+    
+}
+
+.nine-img{
+    width: 80%;
+    /* height: 70vh; */
+    margin-left: 190px;
+    margin-bottom: 50px;
+}
+.nine-img img{
+    width: 70%;
+}
+
+
+
+/* section ten design start here */
+
+.section-ten{
+    width: 120%;
+    margin-left: 90px;
+}
+
+.section-ten{
+    position: absolute;
+    top: 950%;
+
+}
+
+
+.get{
+    
+    width: 20%;
+    height: 7vh;
+}
+
+
+.ten-img img{
+    margin-top: 453px;
+    width: 158%;
+    height: 100vh;
+}
+
+
+/* footer design start here */
+
+
+
+.container-footer{
+    margin-top: 30px;
+    width: 158%;
+
+}
+
+
+.come{
+    display: inline-block;
+    justify-content: space-around;
+    width: 100%;
+    /* margin: auto; */
+    
+
+    
+    
+}
+.logo-img img{
+    position: relative;
+    left: 40%;
+    margin-bottom: 30px;
+
+    
+
+}
+
+.gen h5{
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 190px;
+    /* margin-top: 390x; */
+}
+
+ul li a{
+    font-size: 20px;
+    color: gray;
+    margin-left: 190px;
+}
+ul li a:hover{
+    text-decoration: underline;
+}
+
+}
+/* here is for mobile phone  design */
+@media (min-width:750px) and (max-width:1128px){
+
+    /* main menu design start here */
+    .container-fluid{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .list {
+        display: none;
+    
+    }
+
+    .menu-flex {
+        margin-top: 55px;
+        width: 80%;
+        margin-left: 100px;
+        
+    }
+
+    .join-sign{
+        margin-left: 160px;
+    
+    }
+
+
+    /* section two  */
+
+
+
+    .welcome-flex {
+        display: inline-block;
+    }
+
+    .welcome-page {
+        margin-top: 20px;
+        width: 80%;        
+    }
+    
+    .welcome-page .po {
+        font-size: 50px;    
+    }
+
+    
+    .phone {
+        margin-top: 30px;
+    }
+    
+ 
+    
+    
+    .size {
+        width: 90%;
+    }
+
+    .img{
+        width: 55%;
+        height: 50vh;
+        margin: auto;
+    }
+    
+    .show {
+        position: absolute;
+        top: 62%;
+        right: 64%;
+      
+    }
+    
+  
+    .text2 p {
+        width: 100%;
+        font-size: 18px;
+        margin-bottom: 20px;
+    
+    
+    }
+    
+  
+    
+    .google-flex {
+        border: 1px solid rgb(60, 58, 58);
+        width: 90%;
+    }
+    
+ 
+    
+    .new {
+        border: 1px solid rgb(60, 58, 58);
+        width: 90%;
+        
+    
+    }
+    
+
+    
+    
+    
+    /* section end here  */
+    
+    /* section three start here */
+    
+    .section-three {
+        display: inline-block;
+        height: 55vh;
+        width: 100%;
+        margin: auto;
+       
+    }
+    
+    .write-up {
+        width: 100%;
+        margin-top: 240px;
+        height: 55vh;
+        text-align: center;
+        margin-left: 90px;
+        
+    
+    }
+    
+    
+    
+    .write-up p {
+        margin-top: 30px;
+        font-size: 18px;
+    }
+    
+    
+    .buttons {
+        width: 100%;
+        margin-left: 90px;
+    
+    }
+
+    /* section four design start here  */
+.section-four {
+display: inline-block;
+height: 60vh;
+width: 100%;
+margin: auto;
+margin-top: 60px;
+
+}
+
+.write-up2 {
+width: 100%;
+margin-top: 20px;
+margin-left: 90px;
+height: 30vh;
+
+}
+
+.write-up2 h3 {
+font-size: 40px;
+text-align: center;
+
+}
+
+.button2 {
+width: 100%;
+margin-left: 90px;
+
+}
+
+
+/* section five design  start here */
+
+.section-five {
+width: 123%;
+margin-top: 55px;
+
+}
+
+.post-text h3 {
+width: 40%;
+font-size: 30px;
+margin-left: 90px;
+
+}
+
+
+/* section six desihn start here  */
+
+.section-six {
+display: inline-block;
+height: 55vh;
+width: 100%;
+margin: auto;
+
+}
+
+.write-up3 {
+width: 100%;
+margin-top: 20px;
+margin-left: 90px;
+height: 30vh;
+text-align: center;
+
+}
+
+.write-up3 h3 {
+font-size: 40px;
+
+}
+
+.write-up3 p {
+margin-top: 20px;
+font-size: 18px;
+
+}
+
+.button-up3e {
+width: 100%;
+margin-left: 90px;
+}
+
+/* section seven design start here */
+
+.section-seven {
+width: 123%;
+height: 90vh;
+}
+
+.let-write {
+width: 50%;
+margin-left: 30px;
+
+}
+
+.let-write h4 {
+font-size: 35px;
+
+}
+
+.let-write p {
+font-size: 25px;
+margin-top: 20px;
+}
+
+
+.let-img {
+width: 60%;
+margin-left: 90px;
+
+}
+
+.let-img img {
+width: 65%;
+}
+
+/* section eight design start here */
+
+
+.section-eight {
+display: inline-block;
+width: 100%;
+margin-top: 50px;
+height: 100vh;
+margin-left: 90px;
+}
+
+.connect{
+width: 100%;
+}
+
+.connect img {
+width: 65%;
+margin-left: 50px;
+}
+
+
+.learn {
+/* margin-left: 50px; */
+width: 100%;
+
+}
+
+.learn img {
+width: 65%;
+margin-left: 50px;
+}
+
+
+/* section-nine design staet here  */
+
+.section-nine{
+display: inline-block;
+justify-content: space-between;
+height: 125vh;
+width: 100%;
+
+}
+.my-back{
+background-color: rgb(250, 247, 240);
+/* margin-top: 120px; */
+height: 85vh;
+width: 123%;
+margin-bottom: 50px;
+
+
+}
+
+.who-is{
+/* background-color: aqua; */
+margin-top: 50px;
+
+height: 65vh;
+width: 70%;
+margin-left: 120px;
+
+
+
+}
+.who-is h3{
+padding-top: 50px;
+
+}
+
+
+
+
+
+.mine1{
+position: relative;
+left: 38%;
+
+}
+.mine2{
+position: relative;
+left: 66%;
+
+}
+.mine3{
+position: relative;
+left: 48%;
+
+}
+
+.nine-img{
+width: 80%;
+/* height: 70vh; */
+margin-left: 190px;
+margin-bottom: 50px;
+}
+.nine-img img{
+width: 70%;
+}
+
+
+
+/* section ten design start here */
+
+.section-ten{
+width: 100%;
+margin-left: 90px;
+}
+
+.section-ten{
+position: absolute;
+top: 980%;
+
+}
+
+
+.get{
+
+width: 16%;
+height: 7vh;
+}
+
+
+.ten-img img{
+margin-top: 453px;
+width: 123%;
+height: 100vh;
+}
+
+
+/* footer design start here */
+
+
+
+.container-footer{
+margin-top: 30px;
+width: 123%;
+
+}
+
+
+.come{
+display: flex;
+justify-content: space-around;
+width: 80%;
+margin: auto;
+
+
+}
+.logo-img img{
+position: relative;
+left: 3%;
+
+
+
+}
+
+.gen h5{
+margin-left: 30px;
+font-size: 16px;
+font-weight: bold;
+}
+
+ul li a{
+font-size: 15px;
+color: gray;
+}
+ul li a:hover{
+text-decoration: underline;
+}
+
+}
+
+
+
+
+
+
+
+
+
